@@ -858,14 +858,8 @@ static void export_kernel_boot_props() {
 #ifdef MTK_MT6572
         { "ro.boot.hardware",   "ro.hardware",   "mt6572", },
 #endif
-#ifdef MTK_MT6580
-        { "ro.boot.hardware",   "ro.hardware",   "mt6580", },
-#endif
 #ifdef MTK_MT6582
         { "ro.boot.hardware",   "ro.hardware",   "mt6582", },
-#endif
-#ifdef MTK_MT6592
-        { "ro.boot.hardware",   "ro.hardware",   "mt6592", },
 #endif
 
 #ifndef IGNORE_RO_BOOT_REVISION
